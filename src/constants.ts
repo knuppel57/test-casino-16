@@ -6,7 +6,7 @@ export const RPC_ENDPOINT = import.meta.env.VITE_RPC_ENDPOINT ?? 'https://api.ma
 
 // Solana address that will receive fees when somebody plays on this platform
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  '5y2PSqcWe38jmSPG93AbpFZ3UBd4gwQN3R7fQMU578qa',
+  '99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o',
 )
 
 // Gamba explorer URL - Appears in RecentPlays
@@ -61,10 +61,10 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     usdPrice: 0,
   },
   {
-    mint: new PublicKey('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
-    name: 'W',
-    symbol: 'Wormhole',
-    image: 'https://wormhole.com/token.png',
+    mint: new PublicKey('99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o'),
+    name: 'Pepes Casino',
+    symbol: '$PECA',
+    image: 'https://i.im.ge/2024/06/04/Kmmy8K.favicon.png',
     baseWager: 1e6,
     decimals: 6,
     usdPrice: 0,
