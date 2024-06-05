@@ -102,18 +102,20 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Gamba v2 👋</h1>
+        <h1>Welcome to Pepe's Casino 👋</h1>
         <p>
           A fair, simple and decentralized casino on Solana.
         </p>
       </div>
       <Buttons>
-        <button onClick={() => window.open('https://v2.gamba.so/', '_blank')}>
-          🚀 Add Liquidity
-      
+        <button onClick={() => window.open('https://x.com/pepescasinosol?t=x-bQgAeoFsIHJYWSTh8BGw&s=09')}>
+          🚀 X
+       </button>
+        <button onClick={() => window.open('http://pepescasino.fun/')}>
+          👨‍💻 Website
         </button>
-        <button onClick={() => window.open('https://discord.gg/HSTtFFwR', '_blank')}>
-          💬 Discord
+        <button onClick={() => window.open('https://t.me/+P_d-c8BmcMdkZDZk')}>
+          💬 Telegram
         </button>
       </Buttons>
     </Welcome>
