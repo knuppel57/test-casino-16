@@ -29,7 +29,7 @@ const Buttons = styled.div`
     background: #3ae121;
     transition: background .2s ease;
     &:hover {
-      background: Black;
+      background: white;
     }
     color: black;
     cursor: pointer;
