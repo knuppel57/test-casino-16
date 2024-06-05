@@ -39,8 +39,8 @@ export const POOLS = [
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Wormhole:
-  lp('85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ'),
+  // Pepes Casino:
+  lp('99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o'),
 ]
 
 // The default token to be selected
