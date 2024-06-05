@@ -65,7 +65,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Pepes Casino',
     symbol: '$PECA',
     image: 'https://i.im.ge/2024/06/04/Kmmy8K.favicon.png',
-    baseWager: 1e9,
+    baseWager: 100000e9,
     decimals: 9,
     usdPrice: 0,
   },
