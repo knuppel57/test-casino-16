@@ -66,7 +66,7 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     symbol: '$PECA',
     image: 'https://i.im.ge/2024/06/04/Kmmy8K.favicon.png',
     baseWager: 100000,
-    decimals: 0,
+    decimals: 9,
     usdPrice: 0,
   },
 ]
