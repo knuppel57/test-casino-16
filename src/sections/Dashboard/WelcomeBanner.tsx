@@ -63,9 +63,9 @@ export function WelcomeBanner() {
   return (
     <Welcome>
       <div>
-        <h1>Welcome to Pepe's Casino 👋</h1>
+        <h1>Welcome to Pepe's Casino! </h1>
         <p>
-          A fair, simple and decentralized casino on Solana.
+          Pepe's secret addiction.
         </p>
       </div>
       <Buttons>
