@@ -1,6 +1,6 @@
 {
-	"name": "Gamba Play",
-	"short_name": "Gamba",
+	"name": "Pepe's casino",
+	"short_name": "$PECA",
 	"start_url": "/",
 	"display": "standalone",
 	"background_color": "#000000",
