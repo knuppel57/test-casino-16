@@ -19,7 +19,7 @@ export const PLATFORM_SHARABLE_URL = 'play.gamba.so'
 export const PLATFORM_CREATOR_FEE = 0.02 // 1% (1/100 = 0.01)  !!max 5%!!
 
 // Jackpot fee (in %)
-export const PLATFORM_JACKPOT_FEE = 0.001 // 0.1% (0.1/100 = 0.001)
+export const PLATFORM_JACKPOT_FEE = 0.002 // 0.1% (0.1/100 = 0.001)
 
 // Just a helper function
 const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): PoolToken => ({
