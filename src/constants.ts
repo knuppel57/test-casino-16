@@ -44,7 +44,7 @@ export const POOLS = [
 ]
 
 // The default token to be selected
-export const DEFAULT_POOL = POOLS[Pepes Casino]
+export const DEFAULT_POOL = POOLS[]
 
 /**
  * List of token metadata for the supported tokens
