@@ -33,14 +33,14 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
  * For private pools, add the creator of the Liquidity Pool as a second argument
  */
 export const POOLS = [
-  // Fake token:
-  lp(FAKE_TOKEN_MINT),
+  // Pepes Casino:
+  lp('99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o'),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Pepes Casino:
-  lp('99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o'),
+  // Fake token:
+  lp(FAKE_TOKEN_MINT),
 ]
 
 // The default token to be selected
