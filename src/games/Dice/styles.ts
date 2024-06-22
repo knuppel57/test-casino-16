@@ -61,7 +61,7 @@ export const Result = styled.div`
     border-radius: 5px;
     padding: 5px;
     font-weight: bold;
-    width: 50px;
+    width: 200px;
     text-align: center;
     color: black;
   }
