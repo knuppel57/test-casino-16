@@ -56,7 +56,7 @@ export const Result = styled.div`
   & > div {
     animation: result-appear .25s cubic-bezier(0.18, 0.89, 0.32, 1.28);
     transform-origin: bottom;
-    background: #ffffffCC;
+    background: ##6F0478;
     backdrop-filter: blur(50px);
     border-radius: 5px;
     padding: 5px;
