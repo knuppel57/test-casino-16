@@ -35,12 +35,12 @@ const lp = (tokenMint: PublicKey | string, poolAuthority?: PublicKey | string): 
 export const POOLS = [
   // Pepes Casino:
   lp('99aNVffmoyzM1XsXimpVCqa6EEJa3LeCL64jFmf7YE7o'),
+  // Pepeverse:
+  lp('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j'),
   // SOL:
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-  // Pepeverse:
-  lp('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j'),
   // Fake token:
   lp(FAKE_TOKEN_MINT),
 ]
