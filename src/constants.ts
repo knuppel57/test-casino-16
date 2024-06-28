@@ -40,7 +40,7 @@ export const POOLS = [
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
   // Pepeverse:
-  lp('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j')
+  lp('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j'),
   // Fake token:
   lp(FAKE_TOKEN_MINT),
 ]
