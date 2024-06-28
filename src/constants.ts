@@ -39,6 +39,8 @@ export const POOLS = [
   lp('So11111111111111111111111111111111111111112'),
   // USDC:
   lp('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
+  // Pepeverse:
+  lp('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j')
   // Fake token:
   lp(FAKE_TOKEN_MINT),
 ]
@@ -65,6 +67,15 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     name: 'Pepes Casino',
     symbol: '$PECA',
     image: 'https://i.im.ge/2024/06/04/Kmmy8K.favicon.png',
+    baseWager: 10000e9,
+    decimals: 9,
+    usdPrice: 0,
+  },
+    {
+    mint: new PublicKey('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j'),
+    name: 'Pepeverse',
+    symbol: 'Pepevr',
+    image: 'https://im.ge/i/pepeverse-logo.VXIx5y',
     baseWager: 10000e9,
     decimals: 9,
     usdPrice: 0,
