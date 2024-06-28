@@ -74,8 +74,8 @@ export const TOKEN_METADATA: (Partial<TokenMeta> & {mint: PublicKey})[] = [
     {
     mint: new PublicKey('2NfWicntSQi6iXzgt9M1tSigqXgTzEgY8sK3prCcir8j'),
     name: 'Pepeverse',
-    symbol: 'Pepevr',
-    image: 'https://im.ge/i/pepeverse-logo.VXIx5y',
+    symbol: '$Pepevr',
+    image: 'https://im.ge/i/VXIx5y',
     baseWager: 10000e9,
     decimals: 9,
     usdPrice: 0,
